@@ -12,16 +12,20 @@
 		6D6CA52F25B3B92E00DEDA90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6CA52E25B3B92E00DEDA90 /* ContentView.swift */; };
 		6D6CA53125B3B92E00DEDA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6CA53025B3B92E00DEDA90 /* Assets.xcassets */; };
 		6D6CA53425B3B92E00DEDA90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6CA53325B3B92E00DEDA90 /* Preview Assets.xcassets */; };
+		CC3161EAE29C422B5AB05C52 /* Pods_global_gratis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C6597F10EF007B6BC6492 /* Pods_global_gratis.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F5776F525B3CF5600435B4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6A1C6597F10EF007B6BC6492 /* Pods_global_gratis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_global_gratis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6CA52925B3B92E00DEDA90 /* global gratis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "global gratis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6CA52C25B3B92E00DEDA90 /* global_gratisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = global_gratisApp.swift; sourceTree = "<group>"; };
 		6D6CA52E25B3B92E00DEDA90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D6CA53025B3B92E00DEDA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D6CA53325B3B92E00DEDA90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6D6CA53525B3B92E00DEDA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709128689F963B4027AFE7A1 /* Pods-global gratis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-global gratis.release.xcconfig"; path = "Target Support Files/Pods-global gratis/Pods-global gratis.release.xcconfig"; sourceTree = "<group>"; };
+		956AA0A99F9D9EC0E267823B /* Pods-global gratis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-global gratis.debug.xcconfig"; path = "Target Support Files/Pods-global gratis/Pods-global gratis.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3161EAE29C422B5AB05C52 /* Pods_global_gratis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13509633FB3D118B436A3345 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				956AA0A99F9D9EC0E267823B /* Pods-global gratis.debug.xcconfig */,
+				709128689F963B4027AFE7A1 /* Pods-global gratis.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		55E4F4DD7F478854689D5B24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C6597F10EF007B6BC6492 /* Pods_global_gratis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6D6CA52025B3B92E00DEDA90 = {
 			isa = PBXGroup;
 			children = (
 				6D6CA52B25B3B92E00DEDA90 /* global gratis */,
 				6D6CA52A25B3B92E00DEDA90 /* Products */,
+				13509633FB3D118B436A3345 /* Pods */,
+				55E4F4DD7F478854689D5B24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D6CA53825B3B92E00DEDA90 /* Build configuration list for PBXNativeTarget "global gratis" */;
 			buildPhases = (
+				B65FD1651616C5A3EF5AAB7D /* [CP] Check Pods Manifest.lock */,
 				6D6CA52525B3B92E00DEDA90 /* Sources */,
 				6D6CA52625B3B92E00DEDA90 /* Frameworks */,
 				6D6CA52725B3B92E00DEDA90 /* Resources */,
+				6B01ADE44138BBA8758E609D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +163,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B01ADE44138BBA8758E609D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-global gratis/Pods-global gratis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-global gratis/Pods-global gratis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-global gratis/Pods-global gratis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65FD1651616C5A3EF5AAB7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-global gratis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D6CA52525B3B92E00DEDA90 /* Sources */ = {
@@ -268,6 +337,7 @@
 		};
 		6D6CA53925B3B92E00DEDA90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956AA0A99F9D9EC0E267823B /* Pods-global gratis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +359,7 @@
 		};
 		6D6CA53A25B3B92E00DEDA90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709128689F963B4027AFE7A1 /* Pods-global gratis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
