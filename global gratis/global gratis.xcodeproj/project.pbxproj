@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5776F625B3CF5600435B4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F5776F525B3CF5600435B4A /* GoogleService-Info.plist */; };
 		6D6CA52D25B3B92E00DEDA90 /* global_gratisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6CA52C25B3B92E00DEDA90 /* global_gratisApp.swift */; };
 		6D6CA52F25B3B92E00DEDA90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6CA52E25B3B92E00DEDA90 /* ContentView.swift */; };
 		6D6CA53125B3B92E00DEDA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6CA53025B3B92E00DEDA90 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F5776F525B3CF5600435B4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		6D6CA52925B3B92E00DEDA90 /* global gratis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "global gratis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6CA52C25B3B92E00DEDA90 /* global_gratisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = global_gratisApp.swift; sourceTree = "<group>"; };
 		6D6CA52E25B3B92E00DEDA90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				6D6CA52C25B3B92E00DEDA90 /* global_gratisApp.swift */,
 				6D6CA52E25B3B92E00DEDA90 /* ContentView.swift */,
+				1F5776F525B3CF5600435B4A /* GoogleService-Info.plist */,
 				6D6CA53025B3B92E00DEDA90 /* Assets.xcassets */,
 				6D6CA53525B3B92E00DEDA90 /* Info.plist */,
 				6D6CA53225B3B92E00DEDA90 /* Preview Content */,
@@ -128,6 +131,7 @@
 			files = (
 				6D6CA53425B3B92E00DEDA90 /* Preview Assets.xcassets in Resources */,
 				6D6CA53125B3B92E00DEDA90 /* Assets.xcassets in Resources */,
+				1F5776F625B3CF5600435B4A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
