@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D7942E425B3F45400A3E9FF /* lemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7942E325B3F45400A3E9FF /* lemonApp.swift */; };
-		6D7942E625B3F45400A3E9FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7942E525B3F45400A3E9FF /* ContentView.swift */; };
-		6D7942E825B3F45500A3E9FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7942E725B3F45500A3E9FF /* Assets.xcassets */; };
-		6D7942EB25B3F45500A3E9FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7942EA25B3F45500A3E9FF /* Preview Assets.xcassets */; };
+		6D79431C25B3F62C00A3E9FF /* lemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D79431B25B3F62C00A3E9FF /* lemonApp.swift */; };
+		6D79431E25B3F62C00A3E9FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D79431D25B3F62C00A3E9FF /* ContentView.swift */; };
+		6D79432025B3F62D00A3E9FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D79431F25B3F62D00A3E9FF /* Assets.xcassets */; };
+		6D79432325B3F62D00A3E9FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D79432225B3F62D00A3E9FF /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6D7942E025B3F45400A3E9FF /* lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D7942E325B3F45400A3E9FF /* lemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lemonApp.swift; sourceTree = "<group>"; };
-		6D7942E525B3F45400A3E9FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6D7942E725B3F45500A3E9FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D7942EA25B3F45500A3E9FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6D7942EC25B3F45500A3E9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D79431825B3F62C00A3E9FF /* lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D79431B25B3F62C00A3E9FF /* lemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lemonApp.swift; sourceTree = "<group>"; };
+		6D79431D25B3F62C00A3E9FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6D79431F25B3F62D00A3E9FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D79432225B3F62D00A3E9FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D79432425B3F62D00A3E9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D7942DD25B3F45400A3E9FF /* Frameworks */ = {
+		6D79431525B3F62C00A3E9FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6D7942D725B3F45400A3E9FF = {
+		6D79430F25B3F62C00A3E9FF = {
 			isa = PBXGroup;
 			children = (
-				6D7942E225B3F45400A3E9FF /* lemon */,
-				6D7942E125B3F45400A3E9FF /* Products */,
+				6D79431A25B3F62C00A3E9FF /* lemon */,
+				6D79431925B3F62C00A3E9FF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6D7942E125B3F45400A3E9FF /* Products */ = {
+		6D79431925B3F62C00A3E9FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D7942E025B3F45400A3E9FF /* lemon.app */,
+				6D79431825B3F62C00A3E9FF /* lemon.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6D7942E225B3F45400A3E9FF /* lemon */ = {
+		6D79431A25B3F62C00A3E9FF /* lemon */ = {
 			isa = PBXGroup;
 			children = (
-				6D7942E325B3F45400A3E9FF /* lemonApp.swift */,
-				6D7942E525B3F45400A3E9FF /* ContentView.swift */,
-				6D7942E725B3F45500A3E9FF /* Assets.xcassets */,
-				6D7942EC25B3F45500A3E9FF /* Info.plist */,
-				6D7942E925B3F45500A3E9FF /* Preview Content */,
+				6D79431B25B3F62C00A3E9FF /* lemonApp.swift */,
+				6D79431D25B3F62C00A3E9FF /* ContentView.swift */,
+				6D79431F25B3F62D00A3E9FF /* Assets.xcassets */,
+				6D79432425B3F62D00A3E9FF /* Info.plist */,
+				6D79432125B3F62D00A3E9FF /* Preview Content */,
 			);
 			path = lemon;
 			sourceTree = "<group>";
 		};
-		6D7942E925B3F45500A3E9FF /* Preview Content */ = {
+		6D79432125B3F62D00A3E9FF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				6D7942EA25B3F45500A3E9FF /* Preview Assets.xcassets */,
+				6D79432225B3F62D00A3E9FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,13 +72,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D7942DF25B3F45400A3E9FF /* lemon */ = {
+		6D79431725B3F62C00A3E9FF /* lemon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D7942EF25B3F45500A3E9FF /* Build configuration list for PBXNativeTarget "lemon" */;
+			buildConfigurationList = 6D79432725B3F62D00A3E9FF /* Build configuration list for PBXNativeTarget "lemon" */;
 			buildPhases = (
-				6D7942DC25B3F45400A3E9FF /* Sources */,
-				6D7942DD25B3F45400A3E9FF /* Frameworks */,
-				6D7942DE25B3F45400A3E9FF /* Resources */,
+				6D79431425B3F62C00A3E9FF /* Sources */,
+				6D79431525B3F62C00A3E9FF /* Frameworks */,
+				6D79431625B3F62C00A3E9FF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,24 +86,24 @@
 			);
 			name = lemon;
 			productName = lemon;
-			productReference = 6D7942E025B3F45400A3E9FF /* lemon.app */;
+			productReference = 6D79431825B3F62C00A3E9FF /* lemon.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6D7942D825B3F45400A3E9FF /* Project object */ = {
+		6D79431025B3F62C00A3E9FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					6D7942DF25B3F45400A3E9FF = {
+					6D79431725B3F62C00A3E9FF = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = 6D7942DB25B3F45400A3E9FF /* Build configuration list for PBXProject "lemon" */;
+			buildConfigurationList = 6D79431325B3F62C00A3E9FF /* Build configuration list for PBXProject "lemon" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 6D7942D725B3F45400A3E9FF;
-			productRefGroup = 6D7942E125B3F45400A3E9FF /* Products */;
+			mainGroup = 6D79430F25B3F62C00A3E9FF;
+			productRefGroup = 6D79431925B3F62C00A3E9FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D7942DF25B3F45400A3E9FF /* lemon */,
+				6D79431725B3F62C00A3E9FF /* lemon */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6D7942DE25B3F45400A3E9FF /* Resources */ = {
+		6D79431625B3F62C00A3E9FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D7942EB25B3F45500A3E9FF /* Preview Assets.xcassets in Resources */,
-				6D7942E825B3F45500A3E9FF /* Assets.xcassets in Resources */,
+				6D79432325B3F62D00A3E9FF /* Preview Assets.xcassets in Resources */,
+				6D79432025B3F62D00A3E9FF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D7942DC25B3F45400A3E9FF /* Sources */ = {
+		6D79431425B3F62C00A3E9FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D7942E625B3F45400A3E9FF /* ContentView.swift in Sources */,
-				6D7942E425B3F45400A3E9FF /* lemonApp.swift in Sources */,
+				6D79431E25B3F62C00A3E9FF /* ContentView.swift in Sources */,
+				6D79431C25B3F62C00A3E9FF /* lemonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6D7942ED25B3F45500A3E9FF /* Debug */ = {
+		6D79432525B3F62D00A3E9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		6D7942EE25B3F45500A3E9FF /* Release */ = {
+		6D79432625B3F62D00A3E9FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,13 +262,14 @@
 			};
 			name = Release;
 		};
-		6D7942F025B3F45500A3E9FF /* Debug */ = {
+		6D79432825B3F62D00A3E9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"lemon/Preview Content\"";
+				DEVELOPMENT_TEAM = 7G3HZ8HTMN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = lemon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -283,13 +284,14 @@
 			};
 			name = Debug;
 		};
-		6D7942F125B3F45500A3E9FF /* Release */ = {
+		6D79432925B3F62D00A3E9FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"lemon/Preview Content\"";
+				DEVELOPMENT_TEAM = 7G3HZ8HTMN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = lemon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -307,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D7942DB25B3F45400A3E9FF /* Build configuration list for PBXProject "lemon" */ = {
+		6D79431325B3F62C00A3E9FF /* Build configuration list for PBXProject "lemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D7942ED25B3F45500A3E9FF /* Debug */,
-				6D7942EE25B3F45500A3E9FF /* Release */,
+				6D79432525B3F62D00A3E9FF /* Debug */,
+				6D79432625B3F62D00A3E9FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D7942EF25B3F45500A3E9FF /* Build configuration list for PBXNativeTarget "lemon" */ = {
+		6D79432725B3F62D00A3E9FF /* Build configuration list for PBXNativeTarget "lemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D7942F025B3F45500A3E9FF /* Debug */,
-				6D7942F125B3F45500A3E9FF /* Release */,
+				6D79432825B3F62D00A3E9FF /* Debug */,
+				6D79432925B3F62D00A3E9FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6D7942D825B3F45400A3E9FF /* Project object */;
+	rootObject = 6D79431025B3F62C00A3E9FF /* Project object */;
 }
